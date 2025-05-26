@@ -85,10 +85,10 @@ export default function DeepZoomViewer() {
     }, [selected]);
 
     return (
-        <div>
+        <div className="Main-Container">
         <Navbar />
         <div className="deepzoom-container">
-            {/* Main Deep Zoom panel */}
+            {/* Main Deep Zoom panel loads */}
             <div id="openseadragon1" ref={viewerRef} className="deepzoom-viewer" />
 
             {/* Thumbnails */}
