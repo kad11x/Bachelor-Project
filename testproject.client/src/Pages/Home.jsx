@@ -17,8 +17,7 @@ function Home() {
                     <h1 className="display-3 fw-bold text-white" style={{ fontFamily: "'Playfair Display', serif" }}>Hi, I'm Patview</h1>
                     <p className="lead text-white" style={{ fontFamily: "'Playfair Display', serif" }} >A passionate Patology Image viewer.</p>
                     <div className="mt-4">
-                        <a href="/projects" className="btn btn-outline-light btn-lg mx-2">View Project</a>
-                        <a href="/contact" className="btn btn-primary btn-lg mx-2">Contact Us</a>
+                        <a href="/projects" className="btn btn-outline-light btn-lg mx-2 button-shadow" style={{ fontFamily: "'Playfair Display', serif" }}>View Project</a>
                     </div>
                 </div>
             </div>

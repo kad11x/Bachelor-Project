@@ -7,8 +7,14 @@
 
 .container-about {
     max-width: 900px; /* or any fixed width */
-    margin: 100px auto; /* centers it and adds space from top */
+    margin: 20px auto; /* centers it and adds space from top */
     padding: 0 16px; /* optional: spacing on small screens */
     border-radius: 8px; /* optional: rounded corners */
     overflow: hidden; /* optional: ensures images follow border radius */
 }
+
+.carousel-caption h1,
+.carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+

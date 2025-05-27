@@ -23,13 +23,6 @@ function About() {
                             }
                         },
                         {
-                            image: "/method.jpg",
-                            caption: {
-                                text: "Inefficient tools for remote diagnostics and teaching.",
-                                linkHref: "#"
-                            }
-},
-                        {
                             image: "/workspace.jpg",
                             caption: {
                                 text: "Lack of mobility and flexibility for pathologists.",
@@ -79,42 +72,6 @@ function About() {
                         }
                     ]}
                 />
-
-                {/* Carousel 3 */}
-                <Carousel
-                    id="carousel3"
-                    slides={[
-                        {
-                            image: "/102-remmen-studiestart-2011bha.jpg",
-                            caption: {
-                                title: "Impact",
-                                text: "No PC required – standalone immersive experience.",
-                                linkHref: "#"
-                            }
-                        },
-                        {
-                            image: "/students-working.jpg",
-                            caption: {
-                                text: "Successfully tested at Sykehuset Østfold.",
-                                linkHref: "#"
-                            }
-},
-                        {
-                            image: "/hospital-team.jpg",
-                            caption: {
-                                text: "Increased flexibility for pathologists.",
-                                linkHref: "#"
-                            }                        },
-                        {
-                            image: "/technology-lab.jpg",
-                            caption: {
-                                text: "Future use in training, diagnostics & remote work.",
-                                linkHref: "#"
-                            }
-                        }
-                    ]}
-                />
-
             </div>
         </div>
     );
