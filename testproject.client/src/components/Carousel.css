@@ -1,0 +1,11 @@
+.my-carousel {
+    margin-top: 2rem; /* Space above the first carousel */
+    margin-bottom: 3rem; /* Adds space between stacked carousels */
+    height: 500px;
+    overflow: hidden;
+}
+
+    .my-carousel img {
+        object-fit: cover;
+        height: 100%;
+    }

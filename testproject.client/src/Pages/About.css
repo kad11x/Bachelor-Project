@@ -1,0 +1,14 @@
+
+.carousel-item img {
+    height: 500px; /* or any height you prefer */
+    object-fit: cover;
+    width: 100%;
+}
+
+.container-about {
+    max-width: 900px; /* or any fixed width */
+    margin: 100px auto; /* centers it and adds space from top */
+    padding: 0 16px; /* optional: spacing on small screens */
+    border-radius: 8px; /* optional: rounded corners */
+    overflow: hidden; /* optional: ensures images follow border radius */
+}
