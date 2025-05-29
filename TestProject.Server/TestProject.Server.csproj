@@ -23,4 +23,11 @@
     </ProjectReference>
   </ItemGroup>
 
+	<ItemGroup>
+		<Content Include="tiles\**\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+
 </Project>
