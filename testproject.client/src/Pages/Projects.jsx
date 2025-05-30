@@ -57,7 +57,7 @@ const tileSources = [
     }
 ].map(s => ({
     ...s,
-    thumbnail: `/tiles/${s.name}_files/12/0_0.jpg`
+    thumbnail: `http://localhost:5000/tile/${s.name}_files/12/0_0.jpg`
 }));
 
 export default function DeepZoomViewer() {
@@ -80,7 +80,7 @@ export default function DeepZoomViewer() {
         tileFormat: format,
         minLevel: 0,
         getTileUrl: (level, x, y) =>
-            `/tiles/${name}_files/${level}/${x}_${y}.${format}`
+            `http://localhost:5000/tile/${name}_files/${level}/${x}_${y}.${format}`
     });
 
     // Initialize viewer

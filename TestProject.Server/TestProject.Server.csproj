@@ -24,7 +24,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<Content Include="tiles\**\*.*">
+		<Content Include="tile\**\*.*">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
