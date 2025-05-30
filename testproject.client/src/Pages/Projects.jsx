@@ -6,16 +6,6 @@ import { Link } from 'react-router-dom';
 // Define your image sources and associated patient info
 const tileSources = [
     {
-        name: 'deepzoom2',
-        width: 120940,
-        height: 87898,
-        patient: {
-            name: 'John Doe',
-            id: 'P1234',
-            note: 'Suspicious lesion, upper right quadrant.'
-        }
-    },
-    {
         name: 'deepzoom3',
         width: 149233,
         height: 51097,
@@ -57,7 +47,7 @@ const tileSources = [
     }
 ].map(s => ({
     ...s,
-    thumbnail: `http://localhost:5000/tile/${s.name}_files/12/0_0.jpg`
+    thumbnail: `http://localhost:5003/tile/${s.name}_files/12/0_0.jpg`
 }));
 
 export default function DeepZoomViewer() {
@@ -80,7 +70,7 @@ export default function DeepZoomViewer() {
         tileFormat: format,
         minLevel: 0,
         getTileUrl: (level, x, y) =>
-            `http://localhost:5000/tile/${name}_files/${level}/${x}_${y}.${format}`
+            `http://localhost:5003/tile/${name}_files/${level}/${x}_${y}.${format}`
     });
 
     // Initialize viewer
