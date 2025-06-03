@@ -19,6 +19,8 @@ if (!certificateName) {
     process.exit(-1);
 }
 
+fs.mkdirSync(baseFolder, { recursive: true });
+
 const certFilePath = path.join(baseFolder, `${certificateName}.pem`);
 const keyFilePath = path.join(baseFolder, `${certificateName}.key`);
 
