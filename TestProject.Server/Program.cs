@@ -3,7 +3,7 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-// ✅ Serve static files from "tiles" directory at "/tiles" path test
+// ✅ Serve static files from "tiles" directory at "/tiles" path
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
